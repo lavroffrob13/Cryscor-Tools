@@ -5,7 +5,7 @@ import glob
 
 file_geom="geom_mod"
 
-file_crystal_input="INPUT"
+file_crystal_input=sys.argv[1]
 file_new_crystal_input="hf1.inp"
 file_new_crystal_output="hf1.out"
 file_dual_crystal_input="hf2.inp"
