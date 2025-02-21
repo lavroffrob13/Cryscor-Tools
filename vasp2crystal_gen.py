@@ -18,11 +18,11 @@ with open(input,'r+') as inp, open(output, 'w') as outp:
     line1=(inp.readline()).split()
 
     a1=np.zeros((3,3))
-    a1[0,:]=np.array(line1,dtype=np.float)
+    a1[0,:]=np.array(line1,dtype=float)
     line1=(inp.readline()).split()
-    a1[1,:]=np.array(line1,dtype=np.float)
+    a1[1,:]=np.array(line1,dtype=float)
     line1=(inp.readline()).split()
-    a1[2,:]=np.array(line1,dtype=np.float)
+    a1[2,:]=np.array(line1,dtype=float)
     a1*=factor
 
 #    print(ind_z)
@@ -115,7 +115,7 @@ with open(input,'r+') as inp, open(output, 'w') as outp:
             curr_change+=int(at_ns[curr_ind])
             at=at_inds[curr_ind]
         line1=((inp.readline()).strip()).split()
-        c1=np.array(line1[0:3],dtype=np.float)
+        c1=np.array(line1[0:3],dtype=float)
 #        print(c1)
         c1_new=np.matmul(c1,transf)
         outp.write(str(at)+'   '+str(c1_new[0])+'   '+str(c1_new[1])+'   '+str(c1_new[2])+'\n')
