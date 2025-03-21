@@ -12,3 +12,5 @@ Tools for ease of use in aperiodic embedding, etc in Cryscor
 5. More to come, for OSV-LPM2 + periodic embedding release, etc
 
 6. An informal tutorial was given on 3/20/2025 and the recording is available here https://ucla.box.com/s/h6rv2ioudvoo12mm5nk8xa2nz6pnxcjv
+
+7. The general workflow is outlined in the cheat sheet in this repo
