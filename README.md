@@ -9,8 +9,10 @@ Tools for ease of use in aperiodic embedding, etc in Cryscor
 
 4. displace_along_bond.py: Moving atoms in a symmetric way (i.e. if a neighbor to an anionic vacancy is repulsed from the anion but all other bond lengths should remain symmetric) gets annoying to do by hand, especially if the bond doesn't run parallel to any lattice vectors. Use this script instead.
 
-5. More to come, for OSV-LPM2 + periodic embedding release, etc
+5. dmrg_nevpt2.py: An example of using pySCF instead of molpro as the post-HF solver. See https://mattermodeling.stackexchange.com/questions/1643/how-do-the-various-programs-read-or-write-integrals-in-fcidump-format?rq=1 and https://mattermodeling.stackexchange.com/questions/13261/which-programs-can-read-an-fcidump-file-for-a-uhf-wavefunction?noredirect=1&lq=1 for more interfacing potential options
 
-6. An informal tutorial was given on 3/20/2025 and the recording is available here https://ucla.box.com/s/h6rv2ioudvoo12mm5nk8xa2nz6pnxcjv
+6. More to come, for OSV-LPM2 + periodic embedding release, etc
 
-7. The general workflow is outlined in the cheat sheet in this repo
+7. An informal tutorial was given on 3/20/2025 and the recording is available here https://ucla.box.com/s/h6rv2ioudvoo12mm5nk8xa2nz6pnxcjv
+
+8. The general workflow is outlined in the cheat sheet in this repo
